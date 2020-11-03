@@ -1,0 +1,16 @@
+/batch filter=lfs diff=lfs merge=lfs -text
+/binaries filter=lfs diff=lfs merge=lfs -text
+/logs filter=lfs diff=lfs merge=lfs -text
+/tools filter=lfs diff=lfs merge=lfs -text
+/Vanilla[[:space:]]Repack[[:space:]]x64 filter=lfs diff=lfs merge=lfs -text
+/warden_modules filter=lfs diff=lfs merge=lfs -text
+/website filter=lfs diff=lfs merge=lfs -text
+/sql filter=lfs diff=lfs merge=lfs -text
+/data filter=lfs diff=lfs merge=lfs -text
+/mysql5 filter=lfs diff=lfs merge=lfs -text
+*.sql filter=lfs diff=lfs merge=lfs -text
+.sql filter=lfs diff=lfs merge=lfs -text
+sql/* filter=lfs diff=lfs merge=lfs -text
+mysql5/* filter=lfs diff=lfs merge=lfs -text
+sql/FULL_WORLD_DB_03_05_2020.sql filter=lfs diff=lfs merge=lfs -text
+FULL_WORLD_DB_03_05_2020.sql filter=lfs diff=lfs merge=lfs -text
